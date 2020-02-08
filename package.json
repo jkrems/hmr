@@ -1,0 +1,26 @@
+{
+  "name": "@hmr/api",
+  "version": "0.0.0",
+  "description": "",
+  "exports": {
+    "default": "./lib/hmr.mjs"
+  },
+  "scripts": {
+    "test": "tap --no-esm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkrems/hmr.git"
+  },
+  "keywords": [],
+  "author": "Jan Krems <jan.krems@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jkrems/hmr/issues"
+  },
+  "homepage": "https://github.com/jkrems/hmr#readme",
+  "devDependencies": {
+    "tap": "^14.10.6",
+    "typescript": "^3.8.0-dev.20200207"
+  }
+}
